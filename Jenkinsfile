@@ -1,3 +1,4 @@
+// declarative pipeline
 pipeline{
     agent any
     stages{
@@ -13,6 +14,8 @@ pipeline{
         }
     }  
 }
+
+// scripted pipeline
 
 // node { 
 //     stage('Stage 1') {
